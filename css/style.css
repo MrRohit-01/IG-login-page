@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto+Mono:wght@100;400&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ body {
+    background-color: #ffffff ;
+ }
+
+ .container {
+     /* background-color: rgb(231, 8, 8); */
+     border: thin 1px black;
+ }
+
+ .foot {
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+     gap: 10px;
+     margin: 528px 0px 0px 0px; 
+     /* position: relative; */
+ }
+
+ .foot2 {
+     display: flex;
+     justify-content: center;
+     gap: 55px;
+     padding: 20px 0px 0px 0px;
+     font-size: 11px;
+
+ }
+
+ img {
+     transform: rotate(0deg);
+     width: 18px;
+     height: 17px;
+     cursor: pointer;
+ }
+
+ .lung {
+     display: flex;
+     gap: 50px;
+ }
+
+ .lan {
+     padding: 0px 0px;
+     margin: -2px -48px -14px -36px;
+     font-size: 11px;
+     padding: 3px;
+ }
+
+ .items {
+
+     font-family: 'Roboto Mono', monospace;
+     font-size: 11px;
+ }
+
+ #i1 {
+     width: 465px;
+     height: 635px;
+     padding: 32px 22px 71px 343px;
+     position: absolute;
+     margin: 0px 0px 0px 0px;
+ }
+
+ #i2 {
+     width: 254px;
+     height: 547px;
+     padding: 55px 22px 71px 496px;
+     position: absolute;
+ }
+
+ #i3 {
+     width: 202px;
+     height: 60px;
+     /* padding: 84px 0px 0px 873px; */
+     position: relative;
+ }
+
+ .main {
+    width: 202px;
+     height: 60px;
+     padding: 84px 0px 0px 873px;
+     position: relative;
+     border: 40px;
+     
+ }
+ #i4{
+  background-color: #fafafa;
+  width: 247px;
+  height: 29px;
+  border-radius: 5px;
+  /* border: 7px; */
+  border: 0.5px solid;
+  font-family: 'Hind Siliguri', sans-serif;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+/* font-family: 'Roboto Mono', monospace; */
+  
+ }
+ #i5{
+    background-color: #fafafa;
+    width: 247px;
+    height: 29px;
+    border: 0.5px solid;
+    /* font: 1em sans-serif; */
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+ } 
+ #image{
+    padding: 0px 0px 0px 0px;
+ }

@@ -1,0 +1,99 @@
+
+
+\* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+
+    flex-direction: column;
+}
+
+.a1a {
+    background-color: rgb(51, 254, 129);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a2a {
+    background-color: rgb(234, 121, 22);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a3a {
+    background-color: rgb(226, 20, 185);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a4a {
+    background-color: rgb(86, 16, 216);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a5a {
+    background-color: rgb(51, 193, 254);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a6a {
+    background-color: rgb(184, 215, 28);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.a7a {
+    background-color: rgb(218, 185, 23);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+/* background-color: rgb(162, 222, 12);
+color: black; */
+.a0a {
+    width: 350px;
+    height: 399px;
+    border: solid 1px black;
+    border-style: thin;
+    /* margin-bottom: 150px; */
+    margin-left: 600px;
+    /* margin-top: 0px; */
+    position: relative;
+    top: -100px;
+    left: -40px;
+    box-shadow: black 10px 10px 10px 10px;
+}
+
+.con {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@media screen and (width< 600px) {
+    .container {
+        background-color: red;
+        ;
+    }
+
+}
+ 
